@@ -1,0 +1,58 @@
+onde se pede na decoração no css.
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: 0 5px 10px #767574;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  z-index: 1;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  color: #374058;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  }
+
+nav ul a {
+  margin-left: 2rem;
+}
+
+div {
+  color: blue;
+  position: sticky; 
+  place-items: center;
+  box-shadow: 0 -5px 10px #f0f0f0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.1;
+  text-align: right;
+}
